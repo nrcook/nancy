@@ -1,6 +1,6 @@
 env:
   - GO111MODULE=on
-  - GOPROXY=https://gocenter.io
+  - GOPROXY=https://proxy.golang.org
 before:
   hooks:
     - go mod download
@@ -32,9 +32,9 @@ archives:
 brews:
   - name: nancy
     github:
-      owner: nrcook
-      name: homebrew-go
+      owner: sonatype-nexus-community
+      name: homebrew-tap
     folder: Formula
-    homepage: https://nancy.dev
+    homepage: https://gonancy.dev
     description: Tool to check for vulnerabilities in Go dependencies
     test: system "#{bin}/nancy -v"
