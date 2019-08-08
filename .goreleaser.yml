@@ -32,8 +32,8 @@ archives:
 brews:
   - name: nancy
     github:
-      owner: sonatype
-      name: homebrew-tap
+      owner: nrcook
+      name: homebrew-go
     folder: Formula
     homepage: https://nancy.dev
     description: Tool to check for vulnerabilities in Go dependencies
