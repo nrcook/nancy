@@ -2,6 +2,9 @@ vendor
 nancy
 .DS_Store
 
+#Binaries
+dist/
+
 #IntelliJ
 .idea
 *.iml
